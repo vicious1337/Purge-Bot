@@ -5,8 +5,13 @@ import asyncio
 import discord
 from discord.ext import commands
 from discord.ext.commands import bot
+import pyfiglet
+from pyfiglet import Figlet
 
 client = commands.Bot(command_prefix=prefix, self_bot=True)
+
+custom_fig = Figlet(font='graffiti')
+print(custom_fig.renderText('purge bot'))
 
 @client.event
 async def on_ready():
