@@ -1,5 +1,5 @@
 prefix = "!"
-token = "TOKEN HERE"
+token =  "TOKEN HERE"
 
 import asyncio
 import discord
